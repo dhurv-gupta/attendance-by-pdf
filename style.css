@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#attendance-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#attendance-table th, #attendance-table td {
+    border: 1px solid #1c1a1a;
+    color: #333;
+    padding: 8px;
+    text-align: left;
+}
+
+#attendance-table th {
+    background-color: #f0f0f0;
+}
+/* .course{
+    gap: 2px;
+} */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Styling */
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select, input[type="text"], input[type="time"], input[type="date"] {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #9b2222;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+
+    input[type="checkbox"] {
+        appearance: none;
+        width: 18px;
+        height: 18px;
+        border: 2px solid gray;
+        border-radius: 4px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    input[type="checkbox"]:checked {
+        background-color: green;
+        border-color: green;
+    }
+
+    input[type="checkbox"]:checked::after {
+        content: '\2713'; /* Unicode for check mark */
+        font-size: 14px;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+/* Button Styling */
+button {
+    background-color: #f4f4f9;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+    background-color: rgb(62, 67, 71);
+}
+
+.DownloadXL {
+    background-color: #28a745;
+    color: white;
+}
+
+.Download {
+    background-color: #dc3545;
+    color: white;
+}
+
+.Reset {
+    background-color: #ffc107;
+    color: black;
+}
+/* .summary-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9ecef;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.summary-item {
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+} */
